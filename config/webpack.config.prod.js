@@ -3,7 +3,6 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  devtool: "source-map",
   mode: "development",
   entry: {
     main: "./src/index.js",
@@ -16,21 +15,7 @@ module.exports = {
     rules: [
       {
         test: /\.(sass|scss)$/,
-        use: [
-          "style-loader",
-          {
-            loader: "css-loader",
-            options: {
-              sourceMap: true,
-            },
-          },
-          {
-            loader: "sass-loader",
-            options: {
-              sourceMap: true,
-            },
-          },
-        ],
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
