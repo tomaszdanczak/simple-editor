@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 145px auto 45px;
+
+  grid-template-areas:
+    "header header header header"
+    "content content content sidebar"
+    "footer footer footer footer";
+}
