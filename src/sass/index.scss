@@ -1,6 +1,9 @@
 // Normalize
 @import "normalize-scss";
 
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
+
 // 7-1 CSS Architecture
 
 // abstracts
@@ -18,6 +21,11 @@
 // components
 
 // layout
+@import "layout/content";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/sidebar";
 
 // pages
 
