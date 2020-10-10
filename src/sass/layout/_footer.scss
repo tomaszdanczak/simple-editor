@@ -1,4 +1,21 @@
 .footer {
   grid-area: footer;
-  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $olive;
+
+  &__link {
+    &:link,
+    &:visited,
+    &:active,
+    &:focus {
+      color: currentColor;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
