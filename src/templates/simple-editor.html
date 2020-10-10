@@ -11,7 +11,48 @@
     <header class="header">
       <h1 class="header__heading heading-primary">SIMPLE EDITOR</h1>
     </header>
-    <main class="content">main</main>
+    <main class="content">
+      <article class="editor">
+        <h2 class="editor__heading heading-secondary" hidden>Your message</h2>
+        <section class="editor__tools">
+          <h3 class="editor__header heading-tertiary">Your message<span class="material-icons material-icons--edit">mode_edit</span></h3>
+          <div class="editor__tools-box">
+            <p>
+              <button class="btn-font-style js-btn-font-style--size-down">A<span class="material-icons material-icons--size-down">arrow_drop_down</span></button>
+              <button class="btn-font-style js-btn-font-style--size-up">A<span class="material-icons material-icons--size-up">arrow_drop_up</span></button>
+            </p>
+            <p>
+              <select class="btn-select js-btn-select" name="select" id="select">
+                <option value="arial" selected>Aa</option>
+                <option value="verdana">Verdana</option>
+                <option value="times-new-roman">Times New Roman</option>
+                <option value="georgia">Georgia</option>
+                <option value="monospace">Monospace</option>
+                <option value="calibri">Calibri</option>
+                <option value="impact">Impact</option>
+              </select>
+            </p>
+            <p>
+              <button class="btn-font-style btn-font-style--bold js-btn-font-style--bold">B</button>
+              <button class="btn-font-style btn-font-style--underline js-btn-font-style--underline">U</button>
+              <button class="btn-font-style btn-font-style--italic js-btn-font-style--italic">I</button>
+            </p>
+          </div>
+        </section>
+        <div class="editor__textbox">
+          <h3 class="editor__text heading-tertiary--text">Please enter your message below</h3>
+          <form action="#">
+            <textarea class="editor__textarea editor__textarea--js" name="textarea" id="text"></textarea>
+            <div class="editor__form-elements">
+              <p class="editor__form-buttons">
+                <button class="btn-editor--load js-btn-editor--load"><span class="material-icons material-icons--load">system_update_alt</span>load</button>
+                <button class="btn-editor--save js-btn-editor--save"><span class="material-icons material-icons--save">save</span>save</button>
+              </p>
+            </div>
+          </form>
+        </div>
+      </article>
+    </main>
     <aside class="sidebar">aside</aside>
     <footer class="footer">
       <p class="footer__content paragraph">Refactoring by <a class="footer__link" href="#">Tomasz Dańczak</a> - 2020. </p>
