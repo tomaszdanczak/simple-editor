@@ -1,0 +1,31 @@
+.material-icons {
+  &--edit {
+    margin-left: 10px;
+    font-size: 32px;
+  }
+
+  &--size-down,
+  &--size-up {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    font-size: 14px;
+    color: $white;
+  }
+
+  &--load,
+  &--save {
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    font-size: 24px;
+  }
+
+  &--delete,
+  &--refresh {
+    position: absolute;
+    top: 6px;
+    left: 2px;
+    font-size: 26px;
+  }
+}

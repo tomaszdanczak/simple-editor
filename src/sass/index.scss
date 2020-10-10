@@ -4,6 +4,9 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 
+// Icons
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 // 7-1 CSS Architecture
 
 // abstracts
@@ -19,6 +22,10 @@
 @import "base/utilities";
 
 // components
+@import "components/button";
+@import "components/editor";
+@import "components/material-icons";
+@import "components/switchers";
 
 // layout
 @import "layout/content";
