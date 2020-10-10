@@ -53,7 +53,21 @@
         </div>
       </article>
     </main>
-    <aside class="sidebar">aside</aside>
+    <aside class="sidebar">
+      <div class="switchers">
+        <input type="radio" id="blue" class="switchers__input switchers__input--blue switchers__input--blue-js" name="theme">
+        <label for="blue" class="switchers__label switchers__label--blue switchers__label--blue-js">Blue theme</label>
+        <input type="radio" id="olive" class="switchers__input switchers__input--olive switchers__input--olive-js" name="theme" checked>
+        <label for="olive" class="switchers__label switchers__label--olive switchers__label--olive-js">Olive theme</label>
+        <input type="radio" id="yellow" class="switchers__input switchers__input--yellow switchers__input--yellow-js" name="theme">
+        <label for="yellow" class="switchers__label switchers__label--yellow switchers__label--yellow-js">Yellow theme</label>
+      </div>
+
+      <div>
+        <button type="button" class="btn-cleaning btn-cleaning--remove js-btn-cleaning--remove"><span class="material-icons material-icons--delete">delete_forever</span>clear memory</button>
+        <button type="button" class="btn-cleaning btn-cleaning--reload js-btn-cleaning--reload"><span class="material-icons material-icons--delete">refresh</span>refresh browser</button>
+      </div>
+    </aside>
     <footer class="footer">
       <p class="footer__content paragraph">Refactoring by <a class="footer__link" href="#">Tomasz Dańczak</a> - 2020. </p>
       <p class="footer__content paragraph"> Oryginal: <a class="footer__link" href="https://github.com/KrzysztofGrudzien">Krzysztof Grudzień</a> - 2019</p>

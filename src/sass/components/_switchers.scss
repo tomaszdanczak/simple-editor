@@ -1,0 +1,84 @@
+.switchers {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+
+  &__input {
+    position: absolute;
+    visibility: hidden !important;
+  }
+
+  &__label {
+    cursor: pointer;
+    padding-right: 5px;
+    position: relative;
+    display: block;
+    font-size: 14px;
+    margin: 7px 0;
+
+    &--blue {
+      padding-top: 0;
+    }
+  }
+
+  &__input + &__label {
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%; // sprawdzić jak działa
+      margin-top: -12px;
+    }
+
+    &::before {
+      width: 48px;
+      height: 24px;
+      right: 30px;
+      background: $light-grey;
+      border-radius: 15px;
+    }
+
+    &::after {
+      width: 18px;
+      height: 18px;
+      margin-top: -9px;
+      right: 57px;
+      background: $light-grey;
+      border-radius: 50%;
+      transition: all 200ms ease-out;
+    }
+
+    &--olive::before {
+      background: $olive;
+    }
+
+    &--blue::before {
+      background: $blue;
+    }
+
+    &--yellow::before {
+      background: $yellow;
+    }
+  }
+
+  &__input--blue:checked + &__label--blue {
+    &:after {
+      right: 33px;
+      background-color: $grey;
+    }
+  }
+
+  &__input--olive:checked + &__label--olive {
+    &:after {
+      right: 33px;
+      background-color: $grey;
+    }
+  }
+
+  &__input--yellow:checked + &__label--yellow {
+    &:after {
+      right: 33px;
+      background-color: $grey;
+    }
+  }
+}
