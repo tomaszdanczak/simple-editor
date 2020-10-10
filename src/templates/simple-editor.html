@@ -14,7 +14,31 @@
     <main class="content">
       <article class="editor">
         <h2 class="editor__heading heading-secondary" hidden>Your message</h2>
-        <section class="editor__tools"></section>
+        <section class="editor__tools">
+          <h3 class="editor__header heading-tertiary">Your message<span class="material-icons material-icons--edit">mode_edit</span></h3>
+          <div class="editor__tools-box">
+            <p>
+              <button class="btn-font-style js-btn-font-style--size-down">A<span class="material-icons material-icons--size-down">arrow_drop_down</span></button>
+              <button class="btn-font-style js-btn-font-style--size-up">A<span class="material-icons material-icons--size-up">arrow_drop_up</span></button>
+            </p>
+            <p>
+              <select class="btn-select js-btn-select" name="select" id="select">
+                <option value="arial" selected>Aa</option>
+                <option value="verdana">Verdana</option>
+                <option value="times-new-roman">Times New Roman</option>
+                <option value="georgia">Georgia</option>
+                <option value="monospace">Monospace</option>
+                <option value="calibri">Calibri</option>
+                <option value="impact">Impact</option>
+              </select>
+            </p>
+            <p>
+              <button class="btn-font-style btn-font-style--bold js-btn-font-style--bold">B</button>
+              <button class="btn-font-style btn-font-style--underline js-btn-font-style--underline">U</button>
+              <button class="btn-font-style btn-font-style--italic js-btn-font-style--italic">I</button>
+            </p>
+          </div>
+        </section>
         <div class="editor__textbox"></div>
       </article>
     </main>
