@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/main-64d3e4f8ab3d9be00185.css" rel="stylesheet"></head>
+
+<body>
+  <p class="alert-box alert-box--js"></p>
+
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header__heading heading-primary">SIMPLE EDITOR</h1>
+    </header>
+    <main class="content">
+      <article class="editor">
+        <h2 class="editor__heading heading-secondary" hidden>Your message</h2>
+        <section class="editor__tools">
+          <h3 class="editor__header heading-tertiary">Your message<span class="material-icons material-icons--edit">mode_edit</span></h3>
+          <div class="editor__tools-box">
+            <p>
+              <button class="btn-font-style js-btn-font-style--size-down">A<span class="material-icons material-icons--size-down">arrow_drop_down</span></button>
+              <button class="btn-font-style js-btn-font-style--size-up">A<span class="material-icons material-icons--size-up">arrow_drop_up</span></button>
+            </p>
+            <p>
+              <select class="btn-select js-btn-select" name="select" id="select">
+                <option value="arial" selected>Aa</option>
+                <option value="verdana">Verdana</option>
+                <option value="times-new-roman">Times New Roman</option>
+                <option value="georgia">Georgia</option>
+                <option value="monospace">Monospace</option>
+                <option value="calibri">Calibri</option>
+                <option value="impact">Impact</option>
+              </select>
+            </p>
+            <p>
+              <button class="btn-font-style btn-font-style--bold js-btn-font-style--bold">B</button>
+              <button class="btn-font-style btn-font-style--underline js-btn-font-style--underline">U</button>
+              <button class="btn-font-style btn-font-style--italic js-btn-font-style--italic">I</button>
+            </p>
+          </div>
+        </section>
+        <div class="editor__textbox">
+          <h3 class="editor__text heading-tertiary--text">Please enter your message below</h3>
+          <form action="#">
+            <textarea class="editor__textarea editor__textarea--js" name="textarea" id="text"></textarea>
+            <div class="editor__form-elements">
+              <p class="editor__form-buttons">
+                <button class="btn-editor--load js-btn-editor--load"><span class="material-icons material-icons--load">system_update_alt</span>load</button>
+                <button class="btn-editor--save js-btn-editor--save"><span class="material-icons material-icons--save">save</span>save</button>
+              </p>
+            </div>
+          </form>
+        </div>
+      </article>
+    </main>
+    <aside class="sidebar">
+      <div class="switchers">
+        <input type="radio" id="blue" class="switchers__input switchers__input--blue switchers__input--blue-js" name="theme">
+        <label for="blue" class="switchers__label switchers__label--blue switchers__label--blue-js">Blue theme</label>
+        <input type="radio" id="olive" class="switchers__input switchers__input--olive switchers__input--olive-js" name="theme" checked>
+        <label for="olive" class="switchers__label switchers__label--olive switchers__label--olive-js">Olive theme</label>
+        <input type="radio" id="yellow" class="switchers__input switchers__input--yellow switchers__input--yellow-js" name="theme">
+        <label for="yellow" class="switchers__label switchers__label--yellow switchers__label--yellow-js">Yellow theme</label>
+      </div>
+
+      <div>
+        <button type="button" class="btn-cleaning btn-cleaning--remove js-btn-cleaning--remove"><span class="material-icons material-icons--delete">delete_forever</span>clear memory</button>
+        <button type="button" class="btn-cleaning btn-cleaning--reload js-btn-cleaning--reload"><span class="material-icons material-icons--delete">refresh</span>refresh browser</button>
+      </div>
+    </aside>
+    <footer class="footer">
+      <p class="footer__content paragraph">Refactoring by <a class="footer__link" href="#">Tomasz Dańczak</a> - 2020. </p>
+      <p class="footer__content paragraph"> Oryginal: <a class="footer__link" href="https://github.com/KrzysztofGrudzien">Krzysztof Grudzień</a> - 2019</p>
+    </footer>
+  </div>
+<script src="js/main-2427ceefd0a24e678876.js"></script></body>
+
+</html>
