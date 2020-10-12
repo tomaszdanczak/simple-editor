@@ -1,0 +1,14 @@
+@keyframes slideDownUp {
+  0% {
+    transform: translateY(-48px);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-48px);
+  }
+}

@@ -22,6 +22,7 @@
 @import "base/utilities";
 
 // components
+@import "components/alert-box";
 @import "components/button";
 @import "components/editor";
 @import "components/material-icons";
@@ -37,3 +38,6 @@
 // pages
 
 // themes
+@import "themes/theme-blue";
+@import "themes/theme-olive";
+@import "themes/theme-yellow";

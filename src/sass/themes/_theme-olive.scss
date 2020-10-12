@@ -1,0 +1,45 @@
+.theme-olive {
+  .editor {
+    &__text {
+      background-color: $olive;
+    }
+
+    &__select {
+      color: $olive;
+    }
+  }
+
+  .heading-tertiary {
+    color: $olive;
+  }
+
+  .btn-font-style {
+    border: solid 1px $olive;
+    color: $olive;
+  }
+
+  .btn-select {
+    color: $olive;
+  }
+
+  .btn-editor {
+    &--load,
+    &--save {
+      border: solid 1px $olive;
+      color: $white;
+      background-color: $olive;
+    }
+  }
+
+  .btn-cleaning {
+    &--remove,
+    &--reload {
+      color: $white;
+      background-color: $olive;
+    }
+  }
+
+  .footer {
+    background-color: $olive;
+  }
+}
