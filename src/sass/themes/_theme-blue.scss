@@ -1,0 +1,45 @@
+.theme-blue {
+  .editor {
+    &__text {
+      background-color: $blue;
+    }
+
+    &__select {
+      color: $blue;
+    }
+  }
+
+  .heading-tertiary {
+    color: $blue;
+  }
+
+  .btn-font-style {
+    border: solid 1px $blue;
+    color: $blue;
+  }
+
+  .btn-select {
+    color: $blue;
+  }
+
+  .btn-editor {
+    &--load,
+    &--save {
+      border: solid 1px $blue;
+      color: $white;
+      background-color: $blue;
+    }
+  }
+
+  .btn-cleaning {
+    &--remove,
+    &--reload {
+      color: $white;
+      background-color: $blue;
+    }
+  }
+
+  .footer {
+    background-color: $blue;
+  }
+}

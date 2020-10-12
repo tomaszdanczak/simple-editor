@@ -1,0 +1,46 @@
+.theme-yellow {
+  .editor {
+    &__text {
+      background-color: $yellow;
+    }
+
+    &__select {
+      color: $yellow;
+    }
+  }
+
+  .heading-tertiary {
+    color: $yellow;
+  }
+
+  .btn-font-style {
+    border: solid 1px $yellow;
+    color: $yellow;
+  }
+
+  .btn-select {
+    color: $yellow;
+  }
+
+  .btn-editor {
+    &--load,
+    &--save {
+      border: solid 1px $yellow;
+      color: $white;
+      background-color: $yellow;
+    }
+  }
+
+  .btn-cleaning {
+    &--remove,
+    &--reload {
+      color: $black;
+      background-color: $yellow;
+    }
+  }
+
+  .footer {
+    background-color: $yellow;
+    color: $black;
+  }
+}
