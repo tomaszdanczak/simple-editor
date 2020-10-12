@@ -1,6 +1,7 @@
 ![Simple Editor](gh/simple-editor.gif)
-# WTF - The Simple Editor 
+# WTF - The Simple Editor  
 It is my refactoring of an interesting project built by [Krzysztof Grudzień ](https://github.com/KrzysztofGrudzien)
+### See Live: [Simple Editor](https://tomaszdanczak.github.io/simple-editor/)
 ## 🚀 Things I made myself
 ### 👉 I built a minimalistic Webpack configuration
 (only the necessary configurations to run the project)  
